@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cats restaurant</title>
+    <style>
+      * {
+        margin: 10;
+        padding: 0;
+      }
+
+      ul {
+        text-align: center;
+      }
+
+      li {
+        display: inline;
+      }
+
+      hr {
+        width: 95%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cats restaurant</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#order-form">Orders</a>
+          </li>
+        </ul>
+      </nav>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/48/Catsrepublic.jpg"
+        alt="cats restaurant"
+        id="header-img"
+      />
+    </header>
+
+    <main>
+      <section>
+        <h2 id="menu">Menu</h2>
+
+        <article>
+          <h3>Cat BubbleTea</h3>
+          <img
+            src="https://m.media-amazon.com/images/I/51932Mum1ZL._AC_SL1000_.jpg"
+            alt="Cat BubbleTea"
+            width="200"
+          />
+          <p>
+            Sweet and refreshing bubble tea made with fresh milk and tapioca.
+            <br /><b><i>Price: 8$</i></b>
+          </p>
+        </article>
+
+        <article>
+          <h3>Cat Fries</h3>
+          <img
+            src="https://i.etsystatic.com/8780787/r/il/684d4c/5223897634/il_1080xN.5223897634_rafm.jpg"
+            alt="Cat BubbleTea"
+            width="200"
+          />
+          <p>
+            Crispy and delicious fries made with fresh potatoes and a secret
+            blend of spices.
+            <br /><b><i>Price: 6$</i></b>
+          </p>
+        </article>
+
+        <article>
+          <h3>Cat Burger</h3>
+          <img
+            src="https://www.shutterstock.com/image-photo/cute-fluffy-cat-sunglasses-near-600nw-2116507934.jpg"
+            alt="Cat BubbleTea"
+            width="200"
+          />
+          <p>
+            Juicy and flavorful burger made with fresh beef and a secret blend
+            of spices.
+            <br /><b><i>Price: 12$</i></b>
+          </p>
+        </article>
+
+        <br />
+        <hr />
+      </section>
+
+      <section>
+        <h2 id="order-form">Place Your Order</h2>
+
+        <form action="" method="">
+          <label for="bubbletea">Cat BubbleTea:</label>
+          <input
+            type="number"
+            id="bubbletea"
+            name="bubbletea"
+            min="0"
+            max="5"
+            value="0"
+          />
+          <label>
+            <input type="checkbox" name="bubbletea-option" />More
+            tapppioca</label
+          >
+          <label>
+            <input type="checkbox" name="bubbletea-option" />Vegan milk</label
+          >
+          <label>
+            <input type="checkbox" name="bubbletea-option" />Witout
+            tappioca</label
+          >
+          <br />
+          <br />
+          <label for="fries">Cat Fries:</label>
+          <input
+            type="number"
+            id="fries"
+            name="bubbletea"
+            min="0"
+            max="5"
+            value="0"
+          />
+          <label> <input type="checkbox" name="fries-option" />Ketchup</label>
+          <label> <input type="checkbox" name="fries-option" />Size+</label>
+          <label>
+            <input type="checkbox" name="fries-option" />Without salt</label
+          >
+          <br />
+          <br />
+          <label for="burger"
+            >Cat Burger:
+            <input
+              type="number"
+              id="burger"
+              name="bubbletea"
+              min="0"
+              max="5"
+              value="0"
+            />
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="option"
+              name="meat-type"
+              value="chicken"
+            />Chicken</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="option"
+              name="meat-type"
+              value="beef"
+            />Beef</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="option"
+              name="meat-type"
+              value="vege"
+            />Vege</label
+          >
+          <br /><br />
+          <textarea
+            id="special-comment"
+            placeholder="Special requests"
+          ></textarea>
+          <br /><br />
+          <input type="submit" value=" Go To Checkout meow! " />
+        </form>
+      </section>
+    </main>
+    <br /><br />
+    <hr />
+
+    <footer>
+      <p>Made with love by Tunio</p>
+    </footer>
+  </body>
+</html>
